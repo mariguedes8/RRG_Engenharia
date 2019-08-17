@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="form">
+</head>
+
+<body>
+    <nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+            Logo
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobrenos">Sobre Nós</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="form" class="col-6">
+                <h1 id="h1-form">Contato</h1>
+                <div class="d-flex justify-content-center">
+                    <form action="" method="post" action="">
+
+                        <div class="form-row">
+                            <div class="col-6">
+                                <label for="validationDefault01">First name</label>
+                                <input class="form-control form-control-md" type="text" class="form-control"
+                                    id="validationDefault01" placeholder="First name" value="(ex): Lais" required>
+                            </div>
+                            <div class="col-6">
+                                <label for="validationDefault02">Last name</label>
+                                <input class="form-control form-control-md" type="text" class="form-control"
+                                    id="validationDefault02" placeholder="Last name" value="(ex): Alves" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-6">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input class="form-control form-control-md" type="email" class="form-control"
+                                    id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="col-6">
+                                <label for="telefone">Telefone:</label>
+                                <input class="form-control form-control-md" type="tel" name="telefone" id="telefone"
+                                    placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <label for="exampleFormControlTextarea1">Mensagem </label>
+                                <textarea class="form-control form-control-md" class="form-control"
+                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12">
+                                    <input type="submit" name="bt_enviar" value="ENVIAR" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="info" class="col-6">
+                <p>Endereço</p>
+                <p>Telefone</p>
+                <p>Email</p>
+            </div>
+
+        </div>
+        <Footer id="footer" class="row"><h1>Footer</h1></Footer>
+    </div>
+
+
+
+
+    <!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
